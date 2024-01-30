@@ -1,0 +1,185 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: calc(0.5em + 1vw);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    min-width: 480px !important;
+}
+header {
+    background-color: black;
+    padding: 1em 1.5em;
+}
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+header input {
+    width: 60%;
+    font-size: 0.9rem;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(134, 134, 134);
+}
+header a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.logo {
+    width: 10vw;
+    height: 2vw;
+    background-image: url('northstar-logo.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+}
+.first {
+    margin-right: 1.5em;
+}
+.second {
+    margin-right: auto;
+}
+.third {
+    margin-left: auto;
+    margin-right: 1.5em;
+}
+.fourth {
+    margin-right: 1.5em;
+}
+.fifth a {
+    color: red;
+}
+main .mainfirst {
+    color: white;
+    padding: 6em 1.5em;
+    background-image: url(Poverhnost-Lunyi.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding-bottom: 1em;
+    min-height: 100px;
+}
+.mainfirst h1 {
+    color: rgb(255, 0, 0);
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+}
+.mainfirst p {
+    width: 40%;
+    font-size: .8rem;
+    margin: 1.5em 0 1.5em 0;
+    font-weight: 600;
+}
+.mainfirst button {
+    padding: 0.5em 1em;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(253, 75, 75);
+    border: none;
+    border-radius: 0.2em;
+    margin-bottom: 2em;
+    transition: 0.5s;
+}
+.mainfirst button:hover {
+    background-color: rgb(189, 4, 4);
+    cursor: pointer;
+}
+.block {
+    padding: 2em 0 1em 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: .7rem;
+    font-weight: bold;
+    color:rgb(255, 0, 0);
+}
+.block div {
+    cursor: pointer;
+    padding: .3em;
+    background-color: rgb(255, 255, 255);
+    transition-property: background-color;
+    border-radius: 0.2em;
+    transition-duration: 0.5s;
+}
+.block div:hover {
+    background-color: rgb(75, 74, 74);
+}
+main .mainsecond {
+    color: white;
+    padding: 6em 1.5em;
+    background-image: url(polus.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding-bottom: 1em;
+    min-height: 100px;
+}
+.mainsecond h1 {
+    color: rgb(255, 4, 4);
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+}
+.mainsecond p {
+    width: 40%;
+    font-size: .8rem;
+    margin: 1.5em 0 1.5em 0;
+    font-weight: 600;
+}
+.mainsecond button {
+    padding: 0.5em 1em;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(253, 75, 75);
+    border: none;
+    border-radius: 0.2em;
+    margin-bottom: 2em;
+    transition: 0.5s;
+}
+.mainsecond button:hover {
+    background-color: rgb(189, 4, 4);
+    cursor: pointer;
+}
+.another {
+    padding: 2em 1.5em;
+}
+.another p {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.another button {
+    padding: 0.5em 1em;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(253, 75, 75);
+    border: none;
+    border-radius: 0.2em;
+    margin-top: 1.5em;
+    transition: 0.5s;
+}
+.another button:hover {
+    background-color: rgb(189, 4, 4);
+    cursor: pointer;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 2em 1.5em;
+}
+footer .last {
+    display: flex;
+    justify-content: space-around;
+}
+.last div {
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+
